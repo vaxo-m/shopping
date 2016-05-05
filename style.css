@@ -1,0 +1,56 @@
+.cont {
+	margin-top: 32px;
+	background-color: #777;
+}
+
+.logo {
+	
+	margin-left: 50px;
+
+}
+
+.input-group {
+	margin-top: 3px; 	
+
+}
+
+.balance {
+	float: right;
+	margin-top: -20px;
+}
+
+.balance img, h2 {
+	display: inline-block;
+}
+
+.balance img {
+	margin-right: 10px;
+	margin-top: -15px;
+}
+
+.balance h2 {
+	color: #a1a1a1;
+	font-family: sans-serif;
+	font-family: bold;
+	font-weight: 700;
+	font-size: 27pt;
+	
+}
+
+.btn-default {
+	background:url("images/search.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 42px;
+	height: 34px;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,49 @@
+.top-nav-right li {
+	height: 67px;
+}
+
+.aditi {
+	height: 37px;
+}
+
+.top-navbar-form {
+	margin-top: 15.5px;
+	margin-left: 25%;
+	width: 35%;
+}
+
+@media (max-width: 767px) {
+	.top-navbar-form {
+		width: 100%;
+		margin-right: 0px;
+		margin-left: 0%;
+		padding-right: 0px;
+	}
+}
+
+.fa-search {
+	color: #B3B1B1;
+    font-size: 17px;
+}
+
+.top-navbar-group {
+	width: 100%;
+}
+
+.dolar {
+	text-align: center;
+}
+
+.dolarich {
+	font-weight: bold;
+	font-size: 27pt;
+}
+
+.dolarich img {
+	display: inline;
+}
+
+.dolarich span {
+	position: relative;
+	top: 3px;
+}

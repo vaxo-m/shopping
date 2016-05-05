@@ -2,19 +2,97 @@
 <html>
 <head>
 	<title>shopping</title>
-	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="vendor/font-awesome/css/font-awesome.min.css">
+  	<!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+
+  	<link rel="stylesheet" type="text/css" href="styles/top-nav.css">
 </head>
 <body>
-	<div class="container">
-		<div class="col-md-3"> 
-			<h1>hey jajo</h1>
-		</div>
-		<div class="col-md-3"> 
-			<button class="btn btn-success">vaxo</button>
-		</div>
-		<div class="col-md-3"> 
-			<span class="text-danger">hey lasha</span> 
-		</div>
-	</div>
+
+	<header>
+		<nav class="navbar navbar-default top-navbar">
+		  <div class="container-fluid">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-navbar" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <a class="navbar-brand" href="#">
+		      	<img src="images/adilii.png" class="img img-responsive aditi"></a>
+		      </a>
+		    </div>
+
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="top-navbar">
+		      <form class="navbar-form navbar-left top-navbar-form" role="search">
+		        <div class = "input-group top-navbar-group">
+	       			<input type = "text" class="form-control top-navbar-search" placeholder="Search">
+	       			<span class = "input-group-btn">
+	           			<button class = "btn btn-default" type = "button">
+	           				<i class="fa fa-search" aria-hidden="true"></i>
+	           			</button>
+	       			</span>
+	       		</div>
+		      </form>
+		      <ul class="nav navbar-nav navbar-right top-nav-right">
+		        <li class="dolar">
+		        	<a href="#" class="dolarich">
+		        		<img src="images/basket.png" class="img img-responsive">
+		        		<span>$300</span>
+		        	</a>
+		        </li>
+		      </ul>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+
+		<nav class="navbar navbar-default bottom-navbar">
+		  <div class="container-fluid">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bottom-navbar" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		    </div>
+
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="bottom-navbar">
+		      <ul class="nav navbar-nav navbar top-nav">
+				  <li role="presentation" class="active"><a href="#">Home</a></li>
+				  <li role="presentation"><a href="#">Profile</a></li>
+				  <li role="presentation"><a href="#">Inbox</a></li>
+				  <li role="presentation"><a href="#">Outbox</a></li>
+				  <li role="presentation"><a href="#">Draftbox</a></li>
+				  <li role="presentation" class="dropdown">
+					<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+						Messages
+						<span class="caret"></span>
+				  	</a>
+					<ul class="dropdown-menu">
+						<li><a href="#">Hey Jo</a></li>
+						<li><a href="#">Hey you</a></li>
+						<li><a href="#">tara riri ri ro </a></li>
+					</ul>
+				  </li>
+				  <li role="presentation"><a href="#">Outbox</a></li>
+				  <li role="presentation"><a href="#">Draftbox</a></li>
+				  <li role="presentation"><a href="#">Messages</a></li>
+		      </ul>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+	</header>
+
+	<script src="vendor/jquery/dist/jquery.min.js"></script>
+	<script src="vendor/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
+
+
