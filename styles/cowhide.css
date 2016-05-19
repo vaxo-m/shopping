@@ -1,0 +1,35 @@
+.shop {
+	outline: none !important;
+}
+
+.shop:hover {
+	border-color: #000 !important;
+	color: #000 !important;
+}
+
+.cowhide {
+	padding: 50px 0px;
+	background-color: #38bfb5;
+}
+
+.cowhide-description-div {
+	color: #FFFFFF;
+}
+
+.cowhide-description-div .title {
+	font-size: 50px;
+	font-weight: 600;
+}
+
+.cowhide-description-div .text {
+	line-height: 25px;
+	letter-spacing: 0.9px;
+	opacity: 0.88;
+}
+
+.cowhide-description-div .shop {
+	font-size: 22px;
+	background: none;
+	border: 2px dotted #FFFFFF;
+	color: #FFFFFF;
+}

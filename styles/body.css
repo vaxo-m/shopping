@@ -1,0 +1,11 @@
+.container-fluid {
+
+}
+
+body {
+	overflow-x: hidden;
+}
+
+body a:hover {
+	color: #000;
+}

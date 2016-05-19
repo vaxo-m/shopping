@@ -1,3 +1,8 @@
+.top-navbar, .bottom-navbar {
+	padding: 0px 15px; 
+	margin-bottom: 0px;
+}
+
 .top-nav-right li {
 	height: 67px;
 }
@@ -7,7 +12,7 @@
 }
 
 .top-navbar-form {
-	margin-top: 15.5px;
+	margin-top: 15px;
 	margin-left: 25%;
 	width: 35%;
 }
@@ -35,6 +40,8 @@
 }
 
 .dolarich {
+	margin: 15px 0;
+	padding: 0px !important;
 	font-weight: bold;
 	font-size: 27pt;
 }
@@ -47,3 +54,40 @@
 	position: relative;
 	top: 3px;
 }
+
+/*@media (max-width: 992px) {
+    .bottom-navbar .navbar-header {
+        float: none;
+    }
+    .bottom-navbar .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .bottom-navbar .navbar-toggle {
+        display: block;
+    }
+    .bottom-navbar .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .bottom-navbar .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .bottom-navbar .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .bottom-navbar .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .bottom-navbar .navbar-nav>li {
+        float: none;
+    }
+    .bottom-navbar .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .bottom-navbar .collapse.in{
+        display:block !important;
+    }
+}*/

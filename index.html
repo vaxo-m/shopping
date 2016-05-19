@@ -6,13 +6,18 @@
 	<link rel="stylesheet" type="text/css" href="vendor/font-awesome/css/font-awesome.min.css">
   	<!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
 
+  	<link rel="stylesheet" type="text/css" href="styles/body.css">
   	<link rel="stylesheet" type="text/css" href="styles/top-nav.css">
+  	<link rel="stylesheet" type="text/css" href="styles/cowhide.css">
+  	<link rel="stylesheet" type="text/css" href="styles/slider.css">
+  	<link rel="stylesheet" type="text/css" href="styles/products.css">
+  	<link rel="stylesheet" type="text/css" href="styles/footer.css">
 </head>
 <body>
 
 	<header>
 		<nav class="navbar navbar-default top-navbar">
-		  <div class="container-fluid">
+		  <div class="container">
 		    <!-- Brand and toggle get grouped for better mobile display -->
 		    <div class="navbar-header">
 		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-navbar" aria-expanded="false">
@@ -47,11 +52,11 @@
 		        </li>
 		      </ul>
 		    </div><!-- /.navbar-collapse -->
-		  </div><!-- /.container-fluid -->
+		  </div><!-- /.container-->
 		</nav>
 
 		<nav class="navbar navbar-default bottom-navbar">
-		  <div class="container-fluid">
+		  <div class="container">
 		    <!-- Brand and toggle get grouped for better mobile display -->
 		    <div class="navbar-header">
 		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bottom-navbar" aria-expanded="false">
@@ -65,30 +70,251 @@
 		    <!-- Collect the nav links, forms, and other content for toggling -->
 		    <div class="collapse navbar-collapse" id="bottom-navbar">
 		      <ul class="nav navbar-nav navbar top-nav">
-				  <li role="presentation" class="active"><a href="#">Home</a></li>
+				  <li role="presentation"><a href="#">Home</a></li>
 				  <li role="presentation"><a href="#">Profile</a></li>
-				  <li role="presentation"><a href="#">Inbox</a></li>
-				  <li role="presentation"><a href="#">Outbox</a></li>
-				  <li role="presentation"><a href="#">Draftbox</a></li>
+				  <li role="presentation"><a href="#">Contact</a></li>
 				  <li role="presentation" class="dropdown">
 					<a class="dropdown-toggle" data-toggle="dropdown" href="#">
 						Messages
 						<span class="caret"></span>
 				  	</a>
 					<ul class="dropdown-menu">
-						<li><a href="#">Hey Jo</a></li>
-						<li><a href="#">Hey you</a></li>
-						<li><a href="#">tara riri ri ro </a></li>
+						<li role="presentation"><a href="#">Inbox</a></li>
+				  		<li role="presentation"><a href="#">Outbox</a></li>
+						<li role="presentation"><a href="#">Draftbox</a></li>
 					</ul>
 				  </li>
-				  <li role="presentation"><a href="#">Outbox</a></li>
-				  <li role="presentation"><a href="#">Draftbox</a></li>
-				  <li role="presentation"><a href="#">Messages</a></li>
+				  <li role="presentation"><a href="#">Options</a></li>
+				  <li role="presentation"><a href="#">Map</a></li>
+				  <li role="presentation"><a href="#">About Us</a></li>
 		      </ul>
 		    </div><!-- /.navbar-collapse -->
 		  </div><!-- /.container-fluid -->
 		</nav>
 	</header>
+
+	<div class="container-fluid">
+		<div class="row cowhide">
+			<div class="col-xs-12 col-md-6 col-lg-4 col-lg-offset-2 cowhide-img-div" align="center">
+				<img src="images/levis.png" class="cowhide-img img img-responsive">
+			</div>
+			<div class="col-xs-12 col-md-6 col-lg-4 cowhide-description-div">
+				<h1 class="title">Cowhide Standard Crew</h1>
+				<p class="text">
+					White coloured, short-sleeved, printed T-shirt for men by Levi's. This crew-neck T-shirt is made of organic cotton and comes in a regular fit.
+				</p>
+				<button class="btn btn-default shop">Shop Now</button>
+			</div>
+		</div>
+		
+		<div class="row slider">
+			<div class="col-sm-6 col-md-4">
+				<div class="thumbnail">
+					<img src="images/shoe.jpg" alt="shoe">
+					<div class="caption">
+						<h3>branded shoes</h3>
+						
+						<p class="shop-btn">
+							<a href="#" class="btn btn-large btn-success pull-right" role="button">Shop</a> 
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-sm-6 col-md-4">
+				<div class="thumbnail">
+					<img src="images/shirt.png" alt="shoe">
+					<div class="caption">
+						<h3>branded shirts</h3>
+						
+						<p class="shop-btn">
+							<a href="#" class="btn btn-large btn-success pull-right" role="button">Shop</a>
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-sm-6 col-md-4">
+				<div class="thumbnail">
+					<img src="images/trouser.png" alt="shoe">
+					<div class="caption">
+						<h3>branded shorts</h3>
+						
+						<p class="shop-btn">
+							<a href="#" class="btn btn-large btn-success pull-right" role="button">Shop</a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="row featured-products">
+			<div class="col-md-12">
+				<h2>featured products</h2>
+			</div>
+		</div>	
+		
+		<div class="row products">
+		<div class="col-sm-6 col-md-4">
+			<div class="thumbnail">
+				<img src="images/red-shoes.png" alt="shoe">
+				<div class="caption">
+					<h3>branded shoes</h3>
+					<div class="pull-right">
+						<p class="price">$300</p>
+						<p class="shop-btn">
+							<a href="#" class="btn btn-large btn-success" role="button">buy now</a> 
+						</p>
+					</div>	
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-6 col-md-4">
+			<div class="thumbnail">
+				<img src="images/black-levis.png" alt="shoe">
+				<div class="caption">
+					<h3>branded shoes</h3>
+					<div class="pull-right">
+						<p class="price">$300</p>
+						<p class="shop-btn">
+							<a href="#" class="btn btn-large btn-success" role="button">buy now</a> 
+						</p>
+					</div>	
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-6 col-md-4">
+			<div class="thumbnail">
+				<img src="images/white-shirt.png" alt="shoe">
+				<div class="caption">
+					<h3>branded shoes</h3>
+					<div class="pull-right">
+						<p class="price">$300</p>
+						<p class="shop-btn">
+							<a href="#" class="btn btn-large btn-success" role="button">buy now</a> 
+						</p>
+					</div>	
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-6 col-md-4">
+			<div class="thumbnail">
+				<img src="images/cash.png" alt="shoe">
+				<div class="caption">
+					<h3>branded shoes</h3>
+					<div class="pull-right">
+						<p class="price">$300</p>
+						<p class="shop-btn">
+							<a href="#" class="btn btn-large btn-success" role="button">buy now</a> 
+						</p>
+					</div>	
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-6 col-md-4">
+			<div class="thumbnail">
+				<img src="images/bag.png" alt="shoe">
+				<div class="caption">
+					<h3>branded shoes</h3>
+					<div class="pull-right">
+						<p class="price">$300</p>
+						<p class="shop-btn">
+							<a href="#" class="btn btn-large btn-success" role="button">buy now</a> 
+						</p>
+					</div>	
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-6 col-md-4">
+			<div class="thumbnail">
+				<img src="images/trouser.png" alt="shoe">
+				<div class="caption">
+					<h3>branded shoes</h3>
+					<div class="pull-right">
+						<p class="price">$300</p>
+						<p class="shop-btn">
+							<a href="#" class="btn btn-large btn-success" role="button">buy now</a> 
+						</p>
+					</div>	
+				</div>
+			</div>
+		</div>
+		</div>
+	</div>
+
+
+	<footer>
+		<div class="container">
+			<div class="row footer-list">
+				<div class="bug col-md-3 col-sm-6">
+					<div class="center">
+						<h2>Featured Sale</h2>
+						
+						<ul>
+							<li><a href="#">Alexis Hudson</a></li>
+							<li><a href="#">American Appared</a></li>
+							<li><a href="#">Ben Sherman</a></li>
+							<li><a href="#">Big Buddha</a></li>
+							<li><a href="#">Chanel</a></li>
+							<li><a href="#">Christian Audidier</a></li>
+							<li><a href="#">Coach</a></li>
+							<li><a href="#">Cole haan</a></li>
+						</ul>
+					</div>	
+				</div>
+
+				<div class="bug col-md-3 col-sm-6">
+					<div class="center">
+						<h2>Mens Store</h2>
+					
+						<ul>
+							<li><a href="#">Alexis Hudson</a></li>
+							<li><a href="#">American Appared</a></li>
+							<li><a href="#">Ben Sherman</a></li>
+							<li><a href="#">Big Buddha</a></li>
+							<li><a href="#">Chanel</a></li>
+							<li><a href="#">Christian Audidier</a></li>
+							<li><a href="#">Coach</a></li>
+							<li><a href="#">Cole haan</a></li>
+						</ul>
+					</div>	
+				</div>
+
+				<div class="bug col-md-3 col-sm-6">
+					<div class="center">
+						<h2>Women Store</h2>
+						<ul>
+							<li><a href="#">Alexis Hudson</a></li>
+							<li><a href="#">American Appared</a></li>
+							<li><a href="#">Ben Sherman</a></li>
+							<li><a href="#">Big Buddha</a></li>
+							<li><a href="#">Chanel</a></li>
+							<li><a href="#">Christian Audidier</a></li>
+							<li><a href="#">Coach</a></li>
+							<li><a href="#">Cole haan</a></li>
+						</ul>
+					</div>	
+				</div>
+
+				<div class="bug col-md-3 col-sm-6">
+					<div class="center">
+						<h2>Quick Links</h2>	
+						<ul>
+							<li><a href="#">Alexis Hudson</h4></a></li>
+							<li><a href="#">American Appared</h4></a></li>
+							<li><a href="#">Ben Sherman</h4></a></li>
+							<li><a href="#">Big Buddha</h4></a></li>
+							<li><a href="#">Chanel</h4></a></li>
+							<li><a href="#">Christian Audidier</h4></a></li>
+							<li><a href="#">Coach</h4></a></li>
+							<li><a href="#">Cole haan</h4></a></li>
+						</ul>
+					</div>	
+				</div>
+			</div>
+			</div>
+		</div>
+	</footer>
 
 	<script src="vendor/jquery/dist/jquery.min.js"></script>
 	<script src="vendor/bootstrap/dist/js/bootstrap.min.js"></script>
